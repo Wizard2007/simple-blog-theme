@@ -1,0 +1,245 @@
+.div-line{
+    background-color: #5a5a5a; 
+    padding: 4px;
+}
+
+.info-text{
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    display: block;
+    font: 300 18px GothamProRegular;
+}
+
+
+.latest-post-inner{
+    width: 1050px;
+    padding: 0px 80px;
+    margin: 0 auto;
+}
+
+.post-title{
+    float: left;
+    width: 90%;    
+    display: inline-block;
+    color: #fff;    
+    font: 300 30px GothamProRegular;
+    padding: 40px 0px 20px;
+    text-align: left;
+}
+
+.post-title-line{
+    width: 100%;    
+    border: solid 1px rgb(90,90,90);
+    display: inline-block;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.single-post-inner{
+    padding-bottom: 30px;
+}
+
+.all-img-box-inner{
+    float: left;
+    width: 30%;
+}
+
+.all-text-box-inner{
+    float: left;
+    width: 70%;
+}
+.all-text-box-inner span{
+    font:300 18px GothamProRegular;
+    color: #fffefe;
+}
+
+.img-box-inner{
+    float: left;
+    width: 100%;  
+    display: inline-block;    
+    box-sizing: border-box;
+    padding: 0px 15px 30px 15px
+}
+
+.img-box{
+    border: solid 1px #c5c5c5;
+    min-height: 452px;
+    
+    background-repeat: no-repeat;
+    background-size:  cover;
+    border-radius: 4px;
+}
+
+.img-box1{
+    background-image:url(../imgs/Main/post-img1.png);
+}
+
+.img-box2{
+    background-image:url(../imgs/Main/post-img2.png)
+}
+
+.img-header{
+    background: rgba(0,0,0,0.8);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;    
+}
+
+.img-header span{
+    font: 300 18px GothamProRegular;
+    color: #ffffff; 
+    display: block;
+    text-align: justify;
+    padding: 10px 20px;
+}
+
+.post-header-sub{
+    float: right;
+    width: 10%;
+    text-align: right;
+    padding-top: 54px;
+}
+
+.post-header-sub span{
+    font: 300 12px GothamProRegular;
+    color: #ffffff; 
+}
+
+form span{
+    font: 300 18px GothamProRegular;
+    color: #fffefe;
+}
+
+form{
+    padding-bottom: 15px;
+}
+
+form p{
+    font: 300 12px GothamProRegular;
+    color: #fffefe;
+    padding-bottom: 30px;
+}
+
+form input[type="text"], input[type="email"]{
+    outline: none;
+    background: none;
+    border-bottom: solid 1px #fff;
+    border-bottom-color: #FFF;
+    width: 80%;
+    border-radius: 4px;
+    height: 37px;
+    font:300 18px GothamProRegular;
+    padding-left: 10px;
+    color: #fff;
+}
+
+form input[type="submit"]{
+    padding: 7px 15px;
+    border: none;
+    font:300 18px GothamProRegular;
+    background-color: #49618a; 
+    color: #bebebe;
+        
+}
+.input-inner{
+    float: left;
+    width: 33.33%;
+}
+
+textarea {
+    background-color: #bebebe;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .latest-post-inner{
+        width: 100%;
+        padding: 0px 0px; 
+    }
+    .post-title{
+        width: 100%;
+        padding: 45px 15px 30px;
+    }
+    .post-header-sub{
+        float: left;
+        width: 100%;
+        text-align: left;
+        padding: 0px 15px 15px;
+    }    
+    .post-title-line:last-child{
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+}
+
+@media only 
+    screen and (max-width: 800px){    
+    .img-box-inner{
+        width: 100%;
+        padding: 15px;        
+    }
+    .input-inner{
+        width: 100%
+    }  
+    form input[type="text"], input[type="email"]{    
+        width: 90%;
+        margin: 5px 5%;
+    }
+        
+    form span{
+        width: 92%;
+        margin: 5px 5%;
+    }
+    form p{
+        width: 92%;
+        margin: 5px 5%;
+    }        
+    textarea{
+        width: 92%;
+        margin: 5px 5%;
+    }
+    form input[type="submit"]{
+        margin-left: 5%;
+    }   
+}
+
+@media only 
+    screen and (max-width: 600px){
+    .all-text-box-inner{
+        width:50%;        
+    }
+    .all-img-box-inner{
+        width:50%;
+    }         
+}
+
+@media only 
+    screen and (max-width: 400px){
+    .all-text-box-inner{
+        width:100%;
+        padding: 0px 1%;
+        
+    }
+    .all-img-box-inner{
+        width:100%;
+    }  
+    section:last-child{
+        padding-bottom: 30px;
+        
+    }
+}
+        
+
+    
+@media only screen and (max-width: 1280px){
+    .contacts-main {
+        position: static;
+        top: 0px;        
+    }
+}

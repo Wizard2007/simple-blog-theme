@@ -1,0 +1,277 @@
+.main-pic{
+    background-repeat: no-repeat;
+    background-size:  cover;
+    float: left;    
+}
+.main-pic1{
+    width: 30%;
+    float: left;    
+}
+
+.main-pic-sub-shift{
+    padding-top: 660px;
+    float: left;
+    width: 33%
+}
+
+.main-pic1-sub{
+    float: left;
+    width: 66%;    
+    color: #fff;
+    background-image: url(../imgs/Main/main-pic1.png);
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
+
+.main-pic2{
+    width: 40%;
+    background-image: url(../imgs/Main/main-pic2.png);
+}
+
+.main-pic3{
+    float: left; 
+    width: 30%;      
+}
+
+.main-pic3-sub{
+    float: left;
+    width: 66%;    
+    background-image: url(../imgs/Main/main-pic-3.png);
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
+
+.pic-text{
+    background: rgba(0,0,0,0.45);
+    font: 300 30px GothamProRegular;
+    color: #ffffff;
+    text-align: center;
+    min-height: 660px;
+}
+
+.pic-text p{
+    padding-top: 100%
+}
+
+.main-pic2 p{
+    padding-top: 49%
+}
+
+.div-line{
+    background-color: #5a5a5a; 
+    padding: 4px;
+}
+
+.info-text{
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    display: block;
+    font: 300 18px GothamProRegular;
+}
+
+.info-text-buttom{
+    padding-bottom: 70px;
+    padding-top: 80px;
+}
+
+.info-text-buttom span{
+    padding-bottom: 30px;
+    display: block;
+}
+
+.post-title{
+    width: 14%;
+    float: left;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font: 300 30px GothamProRegular;
+    padding: 45px 5%;    
+}
+.post-title h6{
+    font: 300 30px GothamProRegular;
+}
+
+.post-title-line{
+    width: 38%;
+    float: left;    
+    border: solid 1px rgb(90,90,90);
+    display: inline-block;
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+
+.all-post{
+    text-align: center;
+}
+
+.post-box-inner{
+    float: left;
+    width: 50%;  
+    display: inline-block;    
+    box-sizing: border-box;
+    padding: 0 15px 0 15px;
+}
+
+.post-box{
+    border: solid 1px #c5c5c5;
+    min-height: 560px;
+    background-image: url(../imgs/Main/post-img.png);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    border-radius: 4px;
+}
+
+.post-header{
+    background: rgba(0,0,0,0.8);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;    
+}
+
+.post-header span{
+    font: 300 24px GothamProRegular;
+    color: #ffffff; 
+    display: block;
+    text-align: justify;
+    padding: 40px 20px;
+}
+
+.post-header-sub{
+    background: rgba(161,161,161,0.8);
+    
+}
+
+.post-header-sub span{
+    float: left;
+    font: 300 12px GothamProRegular;
+    color: #ffffff; 
+    padding: 12px 20px;
+}
+
+.post-header-sub a{
+    font: 300 12px GothamProRegular;
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 14px;
+    background: rgba(113,163,200,0.8);
+    margin: 6px 20px;  
+}
+
+.post-header-sub a:hover{
+    text-decoration: underline;
+}
+
+.owl-carousel{
+    color: #fff;
+    visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+}
+.owl-carousel div{
+    text-align: center;
+}
+
+.my-owl-img{
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    padding-top: 400px;
+}
+
+.my-owl-img1{
+    background-image: url(../imgs/Main/main-pic1.png);
+    background-repeat: no-repeat;
+    background-size:  cover;   
+}
+
+.my-owl-img2{
+    background-image: url(../imgs/Main/main-pic2.png);
+    background-repeat: no-repeat;
+    background-size:  cover;   
+}
+
+.my-owl-img3{
+    background-image: url(../imgs/Main/main-pic-3.png);
+    background-repeat: no-repeat;
+    background-size:  cover;   
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px;
+}
+
+@media only screen and (max-width: 640px){
+    .owl-carousel{
+        visibility: visible;
+        position: inherit;
+    }  
+    #main-div-pictures{
+        visibility: hidden;
+        overflow: hidden;
+        position: absolute;        
+    }    
+    .pic-text p {
+        padding-top: 50%;
+    }
+    .main-pic1{
+        width: 100%;
+    }
+
+    .main-pic2{
+        width: 100%;
+    }
+
+    .main-pic3{
+        width: 100%;
+    } 
+    
+    .main-pic-sub-shift{
+        width: 0%;  
+        padding-top: 330px
+    }
+    .main-pic1-sub{width:  100%;}
+    .main-pic3-sub{width:  100%;}  
+    .pic-text{
+    font: 300 15px GothamProRegular;
+    color: #ffffff;
+    text-align: center;
+    min-height: 330px;
+    }   
+}
+
+@media only 
+    screen and (max-width: 800px){    
+    .post-box-inner{
+        width: 100%;
+        padding: 15px;        
+    }
+}
+    
+        
+@media only screen and (max-width: 1000px){
+    
+    .post-title{
+        width: 100%;
+        padding: 45px 0%;
+    }
+
+    .post-title-line{
+        width: 100%;
+
+    }    
+    .post-title-line:last-child{
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+}
+    
+@media only screen and (max-width: 1280px){
+    .contacts-main {
+        position: static;
+        top: 0px;        
+    }
+}

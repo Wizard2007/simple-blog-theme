@@ -1,0 +1,326 @@
+*{margin:0; padding:0}
+body {
+    background-image: url(../imgs/Main/subtle_carbon.png)
+    }
+.clearfix:after{content:"";display:block; height:0;clear:both}
+
+.header-wrpapper{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../imgs/Main/main-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    
+}
+
+.head-wrapper{
+    background: rgba(0,0,0,0.45);    
+}
+header{100%}
+
+.logo-wrapper{
+    float: left;
+}
+
+.logo-wrapper img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: 20px 20px 20px 200px;
+}
+
+.main-menu{
+    padding: 0px;
+    list-style: none;
+	display: inline-block;
+    float: left;
+    margin-right: 120px;
+    margin-top: 100px;
+}
+
+.main-menu li{
+    float: left;
+    display: inline-block;
+    border-right: solid 1px #fff;
+}
+
+.main-menu li:last-child{
+    border: none;
+}
+
+.main-menu a{    
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    font: 300 16px GothamProRegular;
+}
+
+.main-menu a:hover{
+    text-decoration: underline;    
+}
+
+#input_id{
+    outline: none;
+    width: 100px;
+    background: none;
+    border: none;
+    border-bottom: solid 1px #fff;
+    margin-top: 100px;
+}    
+
+label[for="input_id"]{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+label[for="input_id"]:before{
+    position: absolute;
+    content: "";
+    display: block;
+    background: url(../imgs/Main/main-search.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: 0 6px 0 0;
+    top: 5px;
+    left: -20px; 
+}
+
+.head-part-left{
+    width: 40%;
+    float: left;
+}
+
+.head-part-right{
+    width: 60%;
+    float: left;
+}
+
+
+.head-search-panel-wrapper{
+    float: right;
+    width: 13%;
+}
+
+.head-menu-wrapper{
+    float: right;
+    width: 75%;    
+}
+
+.main-site-inner{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.main-footer{
+    background-color: black;
+}
+.main-foote-part{
+    margin: 31px 0px;
+    width: 33.33%;
+    float: left;    
+    text-align: center;
+    font: 300 16px GothamProRegular;
+    color: #ffffff;
+    position: relative;
+}
+
+.main-foote-part .main-menu {
+    margin: 0px;
+    float: none
+}
+
+.contacts-main{
+    padding: 0px;
+    list-style: none;
+	display: inline-block;
+    position: absolute;
+    top: -10px;    
+}
+
+.contacts-main li, .contacts-main a {
+    float: left;
+    width: 34px;
+    height: 33px;
+    display: block;
+}
+
+.contacts-main li{
+    padding: 0px 5px;
+}
+
+.mail:hover {
+    color: #c5c5c5;
+}
+
+
+.google-plus:hover {
+    color: #c5c5c5;
+}
+
+.facebook:hover {
+    color: #c5c5c5;
+}
+
+.twitter:hover {
+    color: #c5c5c5;
+}
+
+@media only screen and (max-width: 400px){
+    .main-menu li{
+        display: list-item;
+        float: none;
+        border: none;
+        padding: 5px 0px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    
+    .head-part-left {
+        text-align: center;
+        width: 100%;
+        float: none;
+    }
+
+    .logo-wrapper {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo-wrapper img {
+        float: none; 
+        height: 100px;
+        width: 100px;
+        margin: 0px;
+    }
+
+    .head-part-right {
+        width: 100%;
+        float: none;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .head-menu-wrapper {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .main-menu {
+        padding: 0px;
+        list-style: none;
+        display: inline-block;
+        float: none; 
+        margin-right: 0px; 
+        margin-top: 0px; 
+    }
+
+    .head-search-panel-wrapper {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    label[for="input_id"] {
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    #input_id{
+        margin-top: 0px;
+    }    
+    .header-wrpapper {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+    .main-site-inner{
+        width: 100%;
+    }  
+    .main-foote-part{
+        width: 100%; 
+        padding: 5px 0px;
+    }
+    .contacts-main{
+        position: none;
+    }
+}
+
+.fa-chevron-circle-up{
+    position: fixed;
+    bottom: 10px;
+    font-size: 120px;
+    color: #fff;
+    visibility: hidden;
+}
+
+.show-button-up{
+    visibility: visible;
+}
+
+@media only 
+    screen and (max-width: 800px){
+    .fa-chevron-circle-up{
+        font-size: 90px;
+    }        
+}
+
+@media only 
+    screen and (max-width: 400px){
+    .fa-chevron-circle-up{
+        font-size: 60px;
+        bottom: 50px;
+    }
+}
+#modal_form {
+	max-width: 150px; 
+	max-height: 150px; /* Рaзмеры дoлжны быть фиксирoвaны */
+	border-radius: 5px;
+	border: 3px #000 solid;
+	background: #fff;
+	position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+	top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+	left: 50%; /* пoлoвинa экрaнa слевa */
+    margin-top: -75px;
+    margin-left: -75px; /* тут вся мaгия центрoвки css, oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo =) */
+	display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+	opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+	z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+	padding: 20px 10px;
+}
+/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+#modal_form #modal_close {
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: block;
+}
+
+#modal_form p{
+    text-align: center;
+    padding: 50% 0%;
+    display: block;
+    font:300 18px GothamProRegular;    
+}
+/* Пoдлoжкa */
+#overlay {
+	z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+	position:fixed; /* всегдa перекрывaет весь сaйт */
+	background-color:#000; /* чернaя */
+	opacity:0.8; /* нo немнoгo прoзрaчнa */
+	-moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
+	filter:alpha(opacity=80);
+	width:100%; 
+	height:100%; /* рaзмерoм вo весь экрaн */
+	top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+	left:0;
+	cursor:pointer;
+	display:none; /* в oбычнoм сoстoянии её нет) */
+}
